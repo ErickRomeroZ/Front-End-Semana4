@@ -1,0 +1,378 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgba(19, 14, 39, 0.918);
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header button{
+    height: 40px;
+    width: 40px;
+    font-size: larger;
+    border: 0cm;
+    border-radius: 30%;
+    color: white;
+    background-color: rgb(204, 99, 51);
+}
+
+input{
+
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    border: 2px solid rgb(204, 99, 51);
+}
+
+.pokelogo{
+    height: auto;
+    width: auto;
+    max-height: 200px;
+    max-width: 300px;
+}
+.pokebanner{
+    height: auto;
+    width: auto;
+    max-height: 500px;
+    max-width: 300px;
+}
+
+section{
+    display: flex;
+}
+
+.izquierda{
+    width: 50%;
+}
+.derecha{
+    width: 50%;
+    display: flex;
+}
+.derecha img{
+    position: relative;
+    
+}
+
+.fondov{
+    width: 70%;
+    background-color: rgba(48, 48, 97, 0.322);
+}
+
+.fondob{
+    width: 30%;
+}
+.izquierda{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.apodo{
+    font-family: 'Ramaraja', serif;
+    font-size: 40px;
+    color: blue;
+}
+.descripcion{
+    font-family: 'Oswald', sans-serif;
+    font-size: 28px;
+    color: rgb(43, 43, 155);
+}
+
+.nombres{
+    display: flex;
+    position: relative;
+    padding-top: 20px;
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    color: rgba(160, 150, 8, 0.897);
+}
+.ID{
+    padding-right: 10px;
+}
+
+.HeigthWeight{
+    display: flex;
+    padding-top: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    color: rgba(216, 118, 37, 0.897);
+}
+.habitat{
+    padding-right: 20px;
+}
+.altura{
+    padding-right: 20px;
+}
+
+
+.grafico{
+    position: right;
+    height: 100px;
+    width: 400px;
+}
+.tipo{
+    display: flex;
+}
+.tipsos{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    color: rgba(216, 118, 37, 0.897);
+}
+.tipo1{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/*--------------tipos---------------*/
+.normal {
+    color: white;
+    padding: 15px 0;
+    height: 50px;
+    width: 60px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    text-align: center;
+    align-self: center;
+
+    background-color: #c2bdbddc;
+}
+.fighting {
+    color: white;
+    padding: 15px 0;
+    height: 50px;
+    width: 60px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    text-align: center;
+    align-self: center;
+
+    background-color: #ca7756;
+}
+.flying {
+    color: white;
+    padding: 15px 0;
+    height: 50px;
+    width: 60px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    text-align: center;
+    align-self: center;
+
+    background-color: #9697d6;
+}
+.poison {
+    color: white;
+    padding: 15px 0;
+    height: 50px;
+    width: 60px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    text-align: center;
+    align-self: center;
+
+    background-color: #9b529b;
+}
+.ground {
+    color: white;
+    padding: 15px 0;
+    height: 50px;
+    width: 60px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    text-align: center;
+    align-self: center;
+
+    background-color: #daa663;
+}
+.rock {
+    color: white;
+    padding: 15px 0;
+    height: 50px;
+    width: 60px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    text-align: center;
+    align-self: center;
+    
+    background-color: #817b73;
+}
+.bug {
+    color: white;
+    padding: 15px 0;
+    height: 50px;
+    width: 60px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    text-align: center;
+    align-self: center;
+
+    background-blend-mode: hard-light;
+    background-color: #9eb656;
+}
+.ghost {
+    color: white;
+    padding: 15px 0;
+    height: 50px;
+    width: 60px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    text-align: center;
+    align-self: center;
+    
+    background-color: #d0a1ee;
+}
+.steel {
+    color: white;
+    padding: 15px 0;
+    height: 50px;
+    width: 60px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    text-align: center;
+    align-self: center;
+
+    background-color: #456c8b;
+}
+.fire {
+    color: white;
+    padding: 15px 0;
+    height: 50px;
+    width: 60px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    text-align: center;
+    align-self: center;
+    
+    background-color: #e01212;
+}
+.water {
+    color: white;
+    padding: 15px 0;
+    height: 50px;
+    width: 60px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    text-align: center;
+    align-self: center;
+
+    background-color: #379deb;
+}
+.grass {
+    color: white;
+    padding: 15px 0;
+    height: 50px;
+    width: 60px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    text-align: center;
+    align-self: center;
+
+    background-color: #38a738;
+}
+.electric {
+    color: white;
+    padding: 15px 0;
+    height: 50px;
+    width: 60px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    text-align: center;
+    align-self: center;
+    
+    background-color: #f8c807;
+    
+}
+.psychic {
+    color: white;
+    padding: 15px 0;
+    height: 50px;
+    width: 60px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    text-align: center;
+    align-self: center;
+    
+    background-color: #fc50bd;
+}
+.ice {
+    color: white;
+    padding: 15px 0;
+    height: 50px;
+    width: 60px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    text-align: center;
+    align-self: center;
+    
+    background-color: #8cc3e6;
+}
+.dragon {
+    color: white;
+    padding: 15px 0;
+    height: 50px;
+    width: 60px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    text-align: center;
+    align-self: center;
+    
+    background-color: #323189;
+}
+.dark {
+    color: white;
+    padding: 15px 0;
+    height: 50px;
+    width: 60px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    text-align: center;
+    align-self: center;
+    
+    background-color: #272430;
+}
+.fairy {
+    color: white;
+    padding: 15px 0;
+    height: 50px;
+    width: 60px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    text-align: center;
+    align-self: center;
+    
+    background-color: #d19ac4;
+}
+.unknown {
+    color: white;
+    padding: 15px 0;
+    height: 50px;
+    width: 60px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    text-align: center;
+    align-self: center;
+    
+    background-color: #4e4c4c;
+}
+.shadow {
+    color: white;
+    padding: 15px 0;
+    height: 50px;
+    width: 60px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    text-align: center;
+    align-self: center;
+    
+    background-color: #333c55;
+}
+.SinClase{
+    display: none;
+}

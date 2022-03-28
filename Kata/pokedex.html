@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b19bb8f200.js" crossorigin="anonymous"></script>
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="/pokestyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Ramaraja&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img class="pokelogo" src="/images/pokemonlogo.png" alt="">
+
+        <div class="busqueda">
+            <input type="text" placeholder="  Busca un pókemon por su nombre o número" id="pokeName" name="pokeName" class="input">
+            <button onclick="fetchPokemon()"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+
+        <img class="pokebanner" src="/images/banner.png" alt="">
+    </header>
+    
+    <section>
+        <div class="izquierda">
+            <div class="nombres">
+                <p class="ID" id="ID"></p>
+                <p class="nombre" id="nombre"></p>
+            </div>
+            <p class="apodo" id="apodo"></p>
+
+            <p class="descripcion" id="descripcion"></p>
+
+            <div class="HeigthWeight">
+                <p class="habitat" id="habitat"></p>
+                <p class="altura" id="altura"></p>
+                <p class="peso" id="peso"></p>
+            </div>
+
+            <p class="tipsos" id="tipsos"></p>
+            <div class="tipo">
+                <p class="tipo1" id="tipo1"></p>
+                <p class="tipo2" id="tipo2"></p>
+            </div>
+
+            <div class="grafico">
+                <canvas id="STATS"></canvas>
+            </div>
+
+        </div>
+        
+        <div class="derecha">
+            <div class="fondob">
+                <img src="/images/fondo.png" alt="Pokemon" id="pokeImg">
+            </div>
+            <div class="fondov">
+            </div>
+        </div>
+    </section>
+</body>
+<footer>
+    <script src="/pokescript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+</footer>
+</html>
